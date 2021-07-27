@@ -6,9 +6,16 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'footer',
+  name: 'c-footer',
   setup() {
 
   },
 })
 </script>
+
+<style lang="less" scoped>
+.footer-wrap {
+  height: 60px;
+  background: #000;
+}
+</style>

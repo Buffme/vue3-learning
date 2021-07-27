@@ -13,5 +13,6 @@
       "@/*": ["src/*"],
     },
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"] // 递归匹配任意子目录
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"], // 递归匹配任意子目录
+  "exclude": ["node_modules", "dist", "**/*.js"]
 }
